@@ -26,6 +26,7 @@ export default class PCHeader extends React.Component {
                         <Menu
                             selectedKeys={[this.state.current]}
                             mode="horizontal"
+                            class='menu_font'
                         >
                             <Menu.Item key="top">
                                 <Icon type="appstore"/>头条
