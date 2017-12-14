@@ -2,6 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import ReactDOM from 'react-dom';
 import PCIndex from './pc_index';
+import PCTest from './pc_test'
 // import MOBILEIndex from './mobile_index';
 // import MediaQuery from 'react-responsive';
 
@@ -12,6 +13,7 @@ class Root extends React.Component {
         return (
             <div>
                 <PCIndex/>
+                <PCTest/>
             </div>
         );
     }
